@@ -1,0 +1,46 @@
+name: 写しの誤り
+description: 原文と文字が違う、表や字下げが崩れている、区分が抜けている など
+title: "[誤り] "
+labels: ["写しの誤り"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        お知らせありがとうございます。わかる範囲で書いていただければ十分です。
+        患者さんの情報や、医療機関を特定できる情報は書き込まないでください。
+  - type: input
+    id: file
+    attributes:
+      label: ファイル
+      description: 該当するファイルの URL か、パス（例 ika/kokuji/A/A000.md）
+    validations:
+      required: true
+  - type: dropdown
+    id: branch
+    attributes:
+      label: 版
+      options:
+        - main（令和8年度・最新）
+        - r06（令和6年度）
+        - わからない
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 誤りの種類
+      options:
+        - 原文と文字が違う
+        - 表が崩れている
+        - 字下げ・段落の切れ目がおかしい
+        - 区分や項目が抜けている
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容
+      description: どこがどう違うか。原文の資料名・ページがわかれば添えてください
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 査定事例
+    url: https://github.com/KaiTech-LLC/shinryo-hoshu/discussions
+    about: 査定や返戻を受けた事例は Discussions へ。個人情報は書かないでください
+  - name: 算定の疑問・解釈の相談
+    url: https://github.com/KaiTech-LLC/shinryo-hoshu/discussions
+    about: 「この場合は算定できる？」などの疑問は Discussions へどうぞ。ほかの利用者や KaiTech がわかる範囲でお答えします
+  - name: KaiTech Doctor（点数表の検索・チャット）
+    url: https://www.kaitech-doctor.com/fee?utm_source=github&utm_medium=issue
+    about: 区分ごとの検索や、算定の疑問にチャットで答える機能があります

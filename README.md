@@ -64,6 +64,30 @@ git diff --stat r06 r08 -- ika/kokuji
 - 令和6年度: 診療報酬の算定方法の一部を改正する告示（令和6年厚生労働省告示第57号）別表第一 ／ 実施上の留意事項について（保医発0305第4号）別添1
   - 出典: 厚生労働省ホームページ「[令和6年度診療報酬改定について](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html)」
 
-誤りに気づかれた場合は、Issue でお知らせください。
+## 査定事例を募集しています
+
+査定や返戻を受けた事例を教えてください。
+どの区分が、どんな理由で査定されたかが集まれば、ほかの医療機関が同じ査定を避ける手がかりになります。
+
+- 書き込み先: [Discussions「査定事例」](https://github.com/KaiTech-LLC/shinryo-hoshu/discussions)
+- 書いてほしいこと: 区分、審査機関、査定の内容と理由、請求の背景（病名や回数など）
+
+> [!CAUTION]
+> **個人情報は書かないでください。**
+> 患者さんの氏名・生年月日・保険者番号、医療機関名、レセプトの画像など、患者さんや医療機関を特定できる情報は書き込まないでください。
+> 年齢は「70代」、時期は「2026年9月診療分」のように、ぼかして書いてください。
+> 個人情報を含む書き込みは、気づいた時点で KaiTech が削除します。
+
+査定の判断は審査機関や地域によって違うことがあり、ほかの医療機関に同じく当てはまるとは限りません。
+
+## 誤りの報告・算定の疑問
+
+| 内容 | 書き込み先 |
+|---|---|
+| 原文と文字が違う・表や字下げが崩れている・区分が抜けている | [Issue「写しの誤り」](https://github.com/KaiTech-LLC/shinryo-hoshu/issues/new?template=1-error.yml) |
+| 新しい改定・訂正・疑義解釈が、まだ反映されていない | [Issue「反映の依頼」](https://github.com/KaiTech-LLC/shinryo-hoshu/issues/new?template=2-update.yml) |
+| 「この場合は算定できる？」「この注はどう読む？」といった疑問 | [Discussions「算定の疑問」](https://github.com/KaiTech-LLC/shinryo-hoshu/discussions) |
+
+Discussions でのやり取りは、厚生労働省や審査支払機関の公式な見解ではありません。
 
 運営: [KaiTech 合同会社](https://kaitech.co.jp)

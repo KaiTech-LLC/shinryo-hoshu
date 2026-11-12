@@ -1,0 +1,31 @@
+name: 反映の依頼
+description: 新しい改定・訂正・疑義解釈が出たのに、まだ反映されていない
+title: "[反映] "
+labels: ["反映の依頼"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        お知らせありがとうございます。厚生労働省のページの URL があると、すぐに確認できます。
+  - type: input
+    id: name
+    attributes:
+      label: 資料の名前
+      description: 例「疑義解釈資料の送付について（その15）」「〜の一部訂正について」
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 発出日
+      description: わかれば（例 2026-10-07）
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: 厚生労働省のページか PDF の URL
+  - type: textarea
+    id: detail
+    attributes:
+      label: 補足
+      description: 影響する区分など、気づいたことがあれば
